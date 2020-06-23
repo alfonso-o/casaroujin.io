@@ -1,0 +1,279 @@
+@font-face {
+    font-family: "Chilanka";
+    src: url(../fonts/Century-Gothic.ttf);
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+html{
+    font-size: 16px;
+    ;
+}
+body{
+    font-size: 0px;
+    padding-top: 75px;
+    font-family: Chilanka, sans-serif; 
+}
+#mapaLeon{
+    width: auto;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+header{
+    background-color:#66a4de;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    text-align: center;
+    min-width: 320px;
+  }
+  figure{
+    width: 25%;
+    padding: 5px 0px;
+    display: inline-block;
+    min-width: 195px;
+}
+#logotipo{
+    width: 60px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#nombre{
+    font-size: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #ffffff;
+    
+}
+#menu-ham{
+    display: none;
+}
+#abrir-ham, #cerrar-ham{
+    text-align: center;
+    min-width: 50px;
+    vertical-align: bottom;
+    height: 50px;
+    display: none;
+}
+
+#abrir-ham img, #cerrar-ham img{
+    width: 30px;
+    vertical-align: middle;
+    border: 1px solid #ffffff;
+}
+
+#menuPrincipal{
+    width: 75%;
+    padding-top: 20px;
+    display: inline-block;
+    text-align: right;
+    padding-right: 2%;
+    
+}
+.opcion{
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block; /* transformarlo en bloque para asignarle un padding*/
+}
+.opcion:hover{
+    background-color: #ffff;
+    color: #66a4de;
+    border-radius: 20px 20px 20px 20px;
+}
+#conocenos{
+    background-color: #ffffff; 
+
+    }
+    #conocenos img{
+            border-radius: 20px 20px 20px 20px;
+            height: 250px;
+            
+            
+        }
+    #conocenos img, #conocenos article{
+            width: 50%;
+            display: inline-block;
+            vertical-align: middle;
+            text-align: justify;
+        }
+    #conocenos article{
+            padding-left: 50px;
+            text-align: justify;
+        }
+        #conocenos h1{
+            font-size: 2.5rem;
+        }
+        #conocenos p{
+            
+            font-size: 1.5rem;
+            text-align: justify;
+        }
+        
+        #conocenos a{
+            font-size: 1rem;
+        }   
+
+.index{
+        width: 100%;
+        height: 400px;
+        padding:10%;
+        text-align: left;
+        min-width: 320px;
+    }
+.conocenos{
+    width: 100%;
+    height: 400px;
+    padding:10%;
+    min-width: 320px;
+    }
+    
+.ubicanos{
+        width: 100%px;
+        height: 350px;
+        padding:10%;
+        text-align: center;
+        min-width: 320px;
+    }
+    .mapa{
+        width: 100%px;
+        height: 700px;
+        padding:3% 10%;
+        text-align: center;
+        min-width: 320px;
+    
+    }
+.contacto{
+        width: 100%px;
+    height: 350px;
+    padding:10%;
+    text-align: left;
+    min-width: 320px;
+    }
+    #con{
+        background-color: #ffffff; 
+    
+        }
+        #con img{
+                border-radius: 20px 20px 20px 20px;
+                height: 250px;
+                
+                
+            }
+        #con img, #con article{
+            
+                display: inline-block;
+                vertical-align: middle;
+                text-align: justify;
+            }
+        #con article{
+                padding-left: 50px;
+                text-align: justify;
+            }
+            #con h1{
+                font-size: 2.5rem;
+            }
+            #con p{
+                
+                font-size: 1.5rem;
+                text-align: justify;
+            }
+            
+            #con a{
+                font-size: 1rem;
+            }   
+            .proy{
+                width: 22.75%;
+                border: 1px solid #ffffff;
+                text-align: center;
+                border-radius: 5px;
+                display: inline-block;
+                overflow: hidden;
+            }
+    
+            .proy:hover{
+                box-shadow: 0px 0px 5px #696c6d;
+            }
+    
+            .separar-izq{
+                margin-left: 3%;
+            }
+    
+            .separar-der{
+                margin-right: 3%;
+            }
+    
+            .proy img{
+                width: 100%;
+                height: 120px;
+            }
+    
+            .proy h3{
+                font-size: 1.3rem;
+                padding: 30px 0px 10px 0px;
+            }
+            .proy p{
+                font-size: 1rem;
+                padding: 10px 20px;
+                line-height: 1.5rem;
+            }
+    .opcionfooter{
+    
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: inline-block;
+    }
+    .opcionfooter:hover{
+        background-color: #ffff;
+    color: #66a4de;
+    border-radius: 20px 20px 20px 20px
+    }
+   .terminos-aviso{
+       font-style: italic;
+       padding-top: 50px;
+       font-size: 1.5rem;
+       text-align: justify;
+        width:90%; 
+        margin:0px auto;
+        color:#000;
+   }
+   .textoterminos{
+       padding-top: 100px;
+       color:#000;
+       font-size: 2rem;
+       text-align: center;
+   }
+footer{
+    
+        width: 100%;
+        background-color: #1e3a46;
+        height: auto;
+        bottom: 100px;
+        color: #ffff;
+        font-size: 1rem;
+        margin-top: 50px;
+        vertical-align: middle;
+        text-align: center;
+        padding: 50px 500px;   
+    }
+  
+    .sectionfooter{
+        width:600px;
+        text-align: right;
+    }
+   
+    .textfooter{
+        padding-top: 20px;
+        font-size: 1rem;
+    }
+    
+    
+
+
